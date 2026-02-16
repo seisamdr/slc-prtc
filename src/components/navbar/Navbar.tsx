@@ -1,7 +1,7 @@
 import "../../app/globals.css";
 import { logo } from "@/src/assets";
 import Image from "next/image";
-import { Button } from "../button/Button";
+import Button from "../button/Button";
 
 const Navbar = () => {
   return (
