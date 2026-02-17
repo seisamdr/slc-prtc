@@ -1,4 +1,7 @@
 import logo from "./images/logo.png";
 import CheckIcon from "./icons/check-icon.png";
+import AvatarTesti1 from "./images/avatar-testi1.png";
+import AvatarTesti2 from "./images/avatar-testi2.png";
+import AvatarTesti3 from "./images/avatar-testi3.png";
 
-export { logo, CheckIcon };
+export { logo, CheckIcon, AvatarTesti1, AvatarTesti2, AvatarTesti3 };
