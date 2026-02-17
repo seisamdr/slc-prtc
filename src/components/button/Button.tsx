@@ -3,9 +3,10 @@ import "../../app/globals.css";
 interface ButtonProps {
   label: string;
   variant: "solid" | "outline" | "text";
+  style?: string;
 }
 
-const Button = ({ label, variant }: ButtonProps) => {
+const Button = ({ label, variant, style }: ButtonProps) => {
   const variantStyles = () => {
     switch (variant) {
       case "solid":
@@ -19,7 +20,7 @@ const Button = ({ label, variant }: ButtonProps) => {
 
   return (
     <button
-      className={`px-[30px] py-[9px] rounded-xl text-2xl ${variantStyles()}`}
+      className={`px-[30px] py-[9px] rounded-xl text-2xl ${variantStyles()} ${style}`}
     >
       {label}
     </button>

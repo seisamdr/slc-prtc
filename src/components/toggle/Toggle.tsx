@@ -9,10 +9,17 @@ interface ToggleProps {
 const Toggle = ({ label, onToggle }: ToggleProps) => {
   const [isChecked, setIsChecked] = useState(false);
 
+  const handleToggle = (checked: boolean) => {
+    if (onToggle) {
+      onToggle(checked);
+    }
+    setIsChecked(checked);
+  };
+
   return (
     <div className="flex items-center">
       <div
-        onClick={() => setIsChecked(!isChecked)}
+        onClick={() => handleToggle(!isChecked)}
         className={`flex w-[45px] h-[25px] rounded-full items-center transform duration-200 cursor-pointer ${
           isChecked ? "bg-primary" : "bg-background-grey"
         }`}
