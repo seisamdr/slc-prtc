@@ -7,6 +7,9 @@ import DesktopImage from "./images/desktop.png";
 import Benefit1 from "./images/benefit1.png";
 import Benefit2 from "./images/benefit2.png";
 import Benefit3 from "./images/benefit3.png";
+import Feature1 from "./images/feature1.png";
+import Feature2 from "./images/feature2.png";
+import Feature3 from "./images/feature3.png";
 
 export {
   logo,
@@ -18,4 +21,7 @@ export {
   Benefit1,
   Benefit2,
   Benefit3,
+  Feature1,
+  Feature2,
+  Feature3,
 };
