@@ -1,7 +1,7 @@
 import { Feature1, Feature2, Feature3 } from "@/src/assets";
 import Image from "next/image";
 
-const benefit = () => {
+const Feature = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h2 className="font-bold text-4xl text-natural">
@@ -13,7 +13,7 @@ const benefit = () => {
 
       <div className="flex justify-center items-center gap-[120px] mt-[50px] w-[1040px]">
         <div className="flex flex-col items-center text-center">
-          <Image src={Feature1} alt="Benefit 1" width={121} height={121} />
+          <Image src={Feature1} alt="Feature 1" width={121} height={121} />
           <h5 className="font-bold text-[24px] text-natural mt-[20px]">
             Drag & Drop Builder
           </h5>
@@ -23,7 +23,7 @@ const benefit = () => {
         </div>
 
         <div className="flex flex-col items-center text-center">
-          <Image src={Feature2} alt="Benefit 2" width={121} height={121} />
+          <Image src={Feature2} alt="Feature 2" width={121} height={121} />
           <h5 className="font-bold text-[24px] text-natural mt-[20px]">
             Connect 100+ Apps
           </h5>
@@ -33,7 +33,7 @@ const benefit = () => {
         </div>
 
         <div className="flex flex-col items-center text-center">
-          <Image src={Feature3} alt="Benefit 3" width={121} height={121} />
+          <Image src={Feature3} alt="Feature 3" width={121} height={121} />
           <h5 className="font-bold text-[24px] text-natural mt-[20px]">
             No-Code Power
           </h5>
@@ -46,4 +46,4 @@ const benefit = () => {
   );
 };
 
-export default benefit;
+export default Feature;
