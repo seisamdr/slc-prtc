@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import "../../app/globals.css";
 
 interface TestimonialCardProps {
-  avatarUrl?: string;
+  avatarUrl?: string | StaticImageData;
   name: string;
   position: string;
   testimonial: string;

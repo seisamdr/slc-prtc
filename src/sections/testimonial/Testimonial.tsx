@@ -15,19 +15,19 @@ const Testimonial = () => {
 
       <div className="flex items-center gap-[100px] mt-[50px]">
         <TestimonialCard
-          avatarUrl={AvatarTesti1.src}
+          avatarUrl={AvatarTesti1}
           name="Sarah L."
           position="Operations Manager"
           testimonial={`"FlowSync saved us countless hours every week. Setting up automation was so smooth, even for a non-tech person like me." `}
         />
         <TestimonialCard
-          avatarUrl={AvatarTesti2.src}
+          avatarUrl={AvatarTesti2}
           name="David K."
           position="Product Lead"
           testimonial={`"We used to juggle multiple tools, now everything runs seamlessly. Our team productivity went up 40%."`}
         />
         <TestimonialCard
-          avatarUrl={AvatarTesti3.src}
+          avatarUrl={AvatarTesti3}
           name="Maya P."
           position="Startup Founder"
           testimonial={`"I love how easy it is to connect apps and let them work in the background. It feels like having an extra teammate." `}
