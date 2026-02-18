@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 
-import { fn } from "storybook/test";
 import TestimonialCard from "./TestimonialCard";
 import { AvatarTesti1, AvatarTesti2, AvatarTesti3 } from "@/src/assets";
 

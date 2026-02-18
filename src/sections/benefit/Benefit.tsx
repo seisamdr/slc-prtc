@@ -1,3 +1,4 @@
+import "../../app/globals.css";
 import { Benefit1, Benefit2, Benefit3 } from "@/src/assets";
 import Image from "next/image";
 

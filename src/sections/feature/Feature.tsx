@@ -1,3 +1,4 @@
+import "../../app/globals.css";
 import { Feature1, Feature2, Feature3 } from "@/src/assets";
 import Image from "next/image";
 
