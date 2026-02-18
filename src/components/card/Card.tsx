@@ -26,11 +26,11 @@ const Card = ({
   const cardStyle = () => {
     switch (position) {
       case "LEFT":
-        return "rounded-l-2xl border-grey border-[1px] h-[510px]";
+        return "rounded-l-2xl border-grey border-t-[1px] border-l-[1px] border-b-[1px] h-[510px]";
       case "CENTER":
-        return "rounded-2xl drop-shadow-[0_0_100px_rgba(0,0,0,0.3)] h-[555px]";
+        return "rounded-2xl drop-shadow-[0_0_100px_rgba(0,0,0,0.3)] h-[570px]";
       case "RIGHT":
-        return "rounded-r-2xl border-grey border-[1px] h-[510px]";
+        return "rounded-r-2xl border-grey border-t-[1px] border-r-[1px] border-b-[1px] h-[510px]";
     }
   };
 
