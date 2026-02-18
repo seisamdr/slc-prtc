@@ -2,7 +2,7 @@ import "../../app/globals.css";
 import { Benefit1, Benefit2, Benefit3 } from "@/src/assets";
 import Image from "next/image";
 
-const benefit = () => {
+const Benefit = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h2 className="font-bold text-4xl text-natural">
@@ -47,4 +47,4 @@ const benefit = () => {
   );
 };
 
-export default benefit;
+export default Benefit;

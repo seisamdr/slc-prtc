@@ -1,3 +1,4 @@
+import "../../app/globals.css";
 import { FBIcon, IGIcon, TWIcon, WAIcon, logo } from "@/src/assets";
 import Image from "next/image";
 
